@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-color: #eef0f1;
+    align-items: center;
+    height: 100vh;
+}
+.openbtn{
+    position: relative;
+    top: 100px;
+    padding: 6px 40px;
+}
+h4{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.box{
+    width: 529px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    display: none;
+    position: relative;
+  
+   
+
+}
+.emoji{
+    position: relative;
+    left: 321px;
+    top: -39px;
+}
+
+
+
+
+
+.closebtn{
+    position: relative;
+    left: 35%;
+    background-color: red!important;
+    padding: 4px 40px;
+    outline: none!important;
+    border: none!important;
+   
+}
